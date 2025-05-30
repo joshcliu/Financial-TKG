@@ -1,0 +1,11 @@
+2025-05-08 18:13:38,878 [INFO] [supply_chain_DKG.<module>]   --> Set up random seed [ 41 ]
+2025-05-08 18:13:39,080 [INFO] [train_utils.load_overall_best_score] ====================================================================================================
+2025-05-08 18:13:39,080 [INFO] [train_utils.load_overall_best_score] Overall best score (C:\Users\joshc\OneDrive\Documents\GitHub\Financial-TKG\result\SupplyChain\DKG\SupplyChain_KGTransformer_overall_best_checkpoint_opt_edge.pt) = 0.0950794589275595
+2025-05-08 18:13:39,080 [INFO] [train_utils.load_overall_best_score] ====================================================================================================
+2025-05-08 18:13:39,985 [INFO] [eval.evaluate] [Epoch-0] Validation loss total=62.5489 | edge=62.5489
+2025-05-08 18:13:40,891 [INFO] [eval.evaluate] [Epoch-0] Validation loss total=62.5489 | edge=62.5489, MRR=0.006257, Rec@1=0.000000, Rec@3=0.000000, Rec@10=0.008715, Rec@100=0.102397
+2025-05-08 18:13:40,897 [INFO] [train_utils.step] [EarlyStopping] Best validation score updated to 0.0063
+2025-05-08 18:46:56,888 [INFO] [supply_chain_DKG.<module>] [Epoch-0] Train loss total=801.7968 | edge=461.4118, time=340.3851 | elapsed time=1995.9151 secs
+2025-05-08 19:42:47,385 [INFO] [eval.evaluate] [Epoch-0] Validation loss total=62.1374 | edge=62.1374
+2025-05-08 19:42:50,114 [INFO] [eval.evaluate] [Epoch-0] Validation loss total=62.1374 | edge=62.1374, MRR=0.047219, Rec@1=0.021786, Rec@3=0.043573, Rec@10=0.078431, Rec@100=0.335512
+2025-05-08 19:42:50,129 [INFO] [train_utils.step] [EarlyStopping] Best validation score updated to 0.0472

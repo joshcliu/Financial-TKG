@@ -1,0 +1,5 @@
+2025-05-08 18:10:30,081 [INFO] [train_supply_chain.<module>]   --> Set up random seed [ 41 ]
+2025-05-08 18:10:30,746 [INFO] [train_utils.load_overall_best_score] ====================================================================================================
+2025-05-08 18:10:30,746 [INFO] [train_utils.load_overall_best_score] Overall best score (C:\Users\joshc\OneDrive\Documents\GitHub\Financial-TKG\result\FinDKG\DKG\FinDKG_KGTransformer_overall_best_checkpoint_opt_edge.pt) = 0.07213392080259977
+2025-05-08 18:10:30,746 [INFO] [train_utils.load_overall_best_score] ====================================================================================================
+2025-05-08 18:10:31,165 [INFO] [eval.evaluate] [Epoch-0] Validation loss total=7.8191 | edge=7.8191

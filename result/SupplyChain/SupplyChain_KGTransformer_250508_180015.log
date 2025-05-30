@@ -1,0 +1,27 @@
+2025-05-08 18:00:15,598 [INFO] [tester.<module>]   --> Set up random seed [ 41 ]
+2025-05-08 18:00:15,660 [INFO] [train_utils.load_overall_best_score] ====================================================================================================
+2025-05-08 18:00:15,660 [INFO] [train_utils.load_overall_best_score] Overall best score (C:\Users\joshc\OneDrive\Documents\GitHub\Financial-TKG\result\SupplyChain\DKG\SupplyChain_KGTransformer_overall_best_checkpoint_opt_edge.pt) = None
+2025-05-08 18:00:15,660 [INFO] [train_utils.load_overall_best_score] ====================================================================================================
+2025-05-08 18:00:16,612 [INFO] [eval.evaluate] [Epoch-0] Validation loss total=62.5489 | edge=62.5489
+2025-05-08 18:00:17,575 [INFO] [eval.evaluate] [Epoch-0] Validation loss total=62.5489 | edge=62.5489, MRR=0.006257, Rec@1=0.000000, Rec@3=0.000000, Rec@10=0.008715, Rec@100=0.102397
+2025-05-08 18:00:17,581 [INFO] [train_utils.step] [EarlyStopping] Best validation score updated to 0.0063
+2025-05-08 18:00:17,638 [INFO] [train_utils.step] Overall best validation score updated to 0.0063
+2025-05-08 18:00:34,966 [INFO] [tester.<module>] [Epoch-0] Train loss total=801.7968 | edge=461.4118, time=340.3851 | elapsed time=17.2712 secs
+2025-05-08 18:00:36,260 [INFO] [eval.evaluate] [Epoch-0] Validation loss total=62.1374 | edge=62.1374
+2025-05-08 18:00:37,502 [INFO] [eval.evaluate] [Epoch-0] Validation loss total=62.1374 | edge=62.1374, MRR=0.047219, Rec@1=0.021786, Rec@3=0.043573, Rec@10=0.078431, Rec@100=0.335512
+2025-05-08 18:00:37,516 [INFO] [train_utils.step] [EarlyStopping] Best validation score updated to 0.0472
+2025-05-08 18:00:37,707 [INFO] [train_utils.step] Overall best validation score updated to 0.0472
+2025-05-08 18:00:57,300 [INFO] [tester.<module>] [Epoch-1] Train loss total=770.6922 | edge=457.3943, time=313.2979 | elapsed time=19.4242 secs
+2025-05-08 18:00:58,197 [INFO] [eval.evaluate] [Epoch-1] Validation loss total=61.6506 | edge=61.6506
+2025-05-08 18:00:59,267 [INFO] [eval.evaluate] [Epoch-1] Validation loss total=61.6506 | edge=61.6506, MRR=0.086278, Rec@1=0.045752, Rec@3=0.067538, Rec@10=0.185185, Rec@100=0.481481
+2025-05-08 18:00:59,275 [INFO] [train_utils.step] [EarlyStopping] Best validation score updated to 0.0863
+2025-05-08 18:00:59,531 [INFO] [train_utils.step] Overall best validation score updated to 0.0863
+2025-05-08 18:01:14,575 [INFO] [tester.<module>] [Epoch-2] Train loss total=743.5862 | edge=453.3288, time=290.2574 | elapsed time=14.8379 secs
+2025-05-08 18:01:15,455 [INFO] [eval.evaluate] [Epoch-2] Validation loss total=61.1529 | edge=61.1529
+2025-05-08 18:01:16,311 [INFO] [eval.evaluate] [Epoch-2] Validation loss total=61.1529 | edge=61.1529, MRR=0.095079, Rec@1=0.045752, Rec@3=0.080610, Rec@10=0.215686, Rec@100=0.511983
+2025-05-08 18:01:16,321 [INFO] [train_utils.step] [EarlyStopping] Best validation score updated to 0.0951
+2025-05-08 18:01:16,484 [INFO] [train_utils.step] Overall best validation score updated to 0.0951
+2025-05-08 18:01:16,962 [INFO] [tester.<module>] Loaded the best model so far for testing.
+2025-05-08 18:01:17,921 [INFO] [eval.evaluate] Test loss total=69.0523 | edge=69.0523
+2025-05-08 18:01:18,997 [INFO] [eval.evaluate] Test loss total=69.0523 | edge=69.0523, MRR=0.051532, Rec@1=0.018634, Rec@3=0.033126, Rec@10=0.115942, Rec@100=0.438923
+2025-05-08 18:01:19,001 [INFO] [tester.<module>] Test elapsed time=2.0391 secs
