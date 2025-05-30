@@ -51,15 +51,16 @@ from DKG.eval import evaluate
 
 INTER_EVENT_TIME_DTYPE = torch.float32
 
+print("DKG library imported successfully")
 
 ############################### Config ############################### 
 graph_mode = "FinDKG"   # specify the dataset: "FinDKG" "ICEWS18"  #"ICEWS14"  #"ICEWS_500"  #"GDELT"  #"WIKI"  #"YAGO"
 
 model_ver = "KGTransformer"   # Mode name: "GraphTransformer"
 model_type ='KGT+RNN'  # 'KGT+RNN' for GraphTransformer | 'RGCN+RNN' for GraphRNN
-epoch_times = 150
+epoch_times = 3
 random_seed = 41
-data_root_path = './data'   # output data path
+data_root_path = './FinDKG_dataset'   # Change from './data' to './FinDKG_dataset'
 
 flag_train = True    # Traing the model
 flag_eval = True     # Evaluate the model
@@ -278,7 +279,7 @@ if flag_train:
                     for emb in dynamic_entity_emb + dynamic_relation_emb:
                         emb.detach_()
 
-                tqdm.write(f"{datetime.now().strftime('%Y-%m-%d %H:%M:%S,%f')} [Epoch {epoch:03d}-Batch {batch_i:03d}] "
+                print(f"{datetime.now().strftime('%Y-%m-%d %H:%M:%S,%f')} [Epoch {epoch:03d}-Batch {batch_i:03d}] "
                         f"batch train loss total={sum([sum(l) for l in batches_train_loss_dict.values()]):.4f} | "
                         f"{', '.join([f'{loss_term}={sum(loss_cumul):.4f}' for loss_term, loss_cumul in batches_train_loss_dict.items()])}")
                 batches_train_loss_dict = defaultdict(list)
