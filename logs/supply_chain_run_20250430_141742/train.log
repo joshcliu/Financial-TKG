@@ -1,0 +1,4 @@
+2025-04-30 14:17:42,811 [INFO] Using device: Namespace(gpu=-1, cuda=False, device=device(type='cpu'))
+2025-04-30 14:17:42,826 [INFO] Training data size: 3000
+2025-04-30 14:17:42,826 [INFO] Validation data size: 1500
+2025-04-30 14:17:42,828 [INFO] Test data size: 1500

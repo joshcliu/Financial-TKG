@@ -1,0 +1,4 @@
+2025-04-30 14:18:50,270 [INFO] Using device: Namespace(gpu=-1, graph_mode='supply_chain', model_ver='KGTransformer', model_type='KGT+RNN', epoch_times=150, hidden_dim=100, num_layers=2, num_heads=4, dropout=0.1, learning_rate=0.001, batch_size=32, cuda=False, device=device(type='cpu'))
+2025-04-30 14:18:50,287 [INFO] Training data size: 3000
+2025-04-30 14:18:50,287 [INFO] Validation data size: 1500
+2025-04-30 14:18:50,287 [INFO] Test data size: 1500
